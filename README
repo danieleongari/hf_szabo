@@ -1,0 +1,20 @@
+% C*********************************************************************
+% C
+% C MINIMAL BASIS STO-3G CALCULATION ON HEH+
+% C
+% C
+% C               APPENDIX B: TWO-ELECTRON SELF-CONSISTENT-FIELD PROGRAM
+% C         MODERN QUANTUM CHEMISTRY by Attila Szabo and Neil S. Ostlund
+% C                               Ed. 2nd (1989) Dover Publications INC.
+% C
+% C Translated to MATLAB by Daniele Ongari (22/10/2015)
+% C Tested compatibility with Octave 3.8.1 on 31/10/2016, 
+% C        after this date the project will be continued in Octave.
+% C
+% C*********************************************************************
+
+Run with:
+
+$octave main.m 
+
+which contains the inputs and calls the HFCALC function. 
