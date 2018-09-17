@@ -112,7 +112,7 @@ end
 if IOP~=0
 
 	disp(['DELTA(CONVERGENCE OF DENSITY MATRIX) = ',num2str(DELTA)])
-    disp ' '
+  disp('')
 end
 
 %C CHECK FOR CONVERGENCE
@@ -130,8 +130,8 @@ if DELTA<CRIT
                      end
     
     if IOP~=0
-        disp 'CALCULATION CONVERGED'
-        disp ''
+        disp('CALCULATION CONVERGED')
+        disp('')
         disp(['ELECTRONIC ENERGY = ',num2str(EN)])
         disp(['TOTAL ENERGY = ',num2str(ENT)])
     end
@@ -160,7 +160,7 @@ end
 
 %C ITER=MAXIT
 %C SOMETHING WRONG HERE
-disp 'NO CONVERGENCE IN SCF AFTER MAXITER'
+disp('NO CONVERGENCE IN SCF AFTER MAXITER')
 
 end
 
